@@ -96,11 +96,12 @@ h1{
     font-size: 15px;
 }
 
-.tags{
+.tags {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
 .tag{
